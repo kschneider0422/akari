@@ -1,5 +1,4 @@
 Akari, also called Light Up, is a binary-determination logic puzzle published by Nikoli. 
-As of 2011, three books consisting entirely of Light Up puzzles have been published by Nikoli.
 
 Rules
 
