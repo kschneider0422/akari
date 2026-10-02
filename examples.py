@@ -1,4 +1,3 @@
-
 from akari import Akari
 
 dims = (7, 7)
@@ -7,13 +6,10 @@ givens = {(0, 2): 1, (0, 4): 1,
           (3, 3): -1,
           (4, 0): -1, (4, 2): -1, (4, 4): 3, (4, 6): -1,
           (6, 2): -1, (6, 4): -1}
-
 A = Akari(dims, givens)
 A.solve()
 A.board.plot()
 A.solutions[0].plot()
-
-
 
 dims = (9, 7)
 givens = {(0, 4): 0, (0, 5): -1,
@@ -25,7 +21,6 @@ givens = {(0, 4): 0, (0, 5): -1,
           (6, 1): -1, (6, 3): 1, (6, 4): 1, 
           (7, 1): -1,
           (8, 1): -1, (8, 2): -1}
-
 A = Akari(dims, givens)
 A.solve()
 A.board.plot()
